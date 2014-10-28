@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hellowrld"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hellowrld.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.AboutUs"
+            android:label="Aakash The Greatest"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.hellowrld.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.hellowrld.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.hellowrld.Menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.hellowrld.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.hellowrld.SqlView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.hellowrld.SQLVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.hellowrld.TextPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.Email"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.Camera"
+            android:label="Camera Application"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.Data"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.OpenedClass"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.GFX"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.GFXSurface"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.SoundStuff"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.hellowrld.Jdactivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.hellowrld.Slider"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.hellowrld.Tab"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.SimpleBrowser"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.hellowrld.Sms"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.WhereIam"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.SqliteDatabase"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.Accelerate"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.hellowrld.HttpExample"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.Parser"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.example.hellowrld.WeatherXMLParsing"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.GLExample"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hellowrld.Voice"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.hellowrld.GesturesActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
